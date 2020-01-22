@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3821F44423C63ABD0055869D /* BusinessLocator_WatchApp WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 3821F44323C63ABD0055869D /* BusinessLocator_WatchApp WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3821F44A23C63ABD0055869D /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3821F44823C63ABD0055869D /* Interface.storyboard */; };
+		3821F44C23C63AC20055869D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3821F44B23C63AC20055869D /* Assets.xcassets */; };
+		3821F45323C63AC20055869D /* BusinessLocator_WatchApp WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3821F45223C63AC20055869D /* BusinessLocator_WatchApp WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3821F45823C63AC20055869D /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3821F45723C63AC20055869D /* InterfaceController.swift */; };
+		3821F45A23C63AC20055869D /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3821F45923C63AC20055869D /* ExtensionDelegate.swift */; };
+		3821F45C23C63AC20055869D /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3821F45B23C63AC20055869D /* NotificationController.swift */; };
+		3821F45E23C63AC50055869D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3821F45D23C63AC50055869D /* Assets.xcassets */; };
+		3821F46F23C646A10055869D /* BusinessRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3821F46E23C646A10055869D /* BusinessRow.swift */; };
+		3821F47123C6476D0055869D /* BusinessTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3821F47023C6476D0055869D /* BusinessTable.swift */; };
+		3821F47323C6480B0055869D /* YelpData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3821F47223C6480B0055869D /* YelpData.swift */; };
+		3821F47623C648640055869D /* YelpParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3821F47523C648640055869D /* YelpParser.swift */; };
+		3821F47823C648920055869D /* YelpImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3821F47723C648920055869D /* YelpImages.swift */; };
+		3821F47A23C648B10055869D /* ApiKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3821F47923C648B10055869D /* ApiKeys.swift */; };
+		3821F47C23C648CF0055869D /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3821F47B23C648CF0055869D /* Networking.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3821F44523C63ABD0055869D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3821F43923C63ABD0055869D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3821F44223C63ABD0055869D;
+			remoteInfo = "BusinessLocator_WatchApp WatchKit App";
+		};
+		3821F45423C63AC20055869D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3821F43923C63ABD0055869D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3821F45123C63AC20055869D;
+			remoteInfo = "BusinessLocator_WatchApp WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3821F46623C63AC50055869D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3821F45323C63AC20055869D /* BusinessLocator_WatchApp WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3821F46A23C63AC50055869D /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				3821F44423C63ABD0055869D /* BusinessLocator_WatchApp WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3821F43F23C63ABD0055869D /* BusinessLocator_WatchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BusinessLocator_WatchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3821F44323C63ABD0055869D /* BusinessLocator_WatchApp WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BusinessLocator_WatchApp WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3821F44923C63ABD0055869D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		3821F44B23C63AC20055869D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3821F44D23C63AC20055869D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3821F45223C63AC20055869D /* BusinessLocator_WatchApp WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "BusinessLocator_WatchApp WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3821F45723C63AC20055869D /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		3821F45923C63AC20055869D /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		3821F45B23C63AC20055869D /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		3821F45D23C63AC50055869D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3821F45F23C63AC50055869D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3821F46023C63AC50055869D /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		3821F46E23C646A10055869D /* BusinessRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessRow.swift; sourceTree = "<group>"; };
+		3821F47023C6476D0055869D /* BusinessTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessTable.swift; sourceTree = "<group>"; };
+		3821F47223C6480B0055869D /* YelpData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YelpData.swift; sourceTree = "<group>"; };
+		3821F47523C648640055869D /* YelpParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YelpParser.swift; sourceTree = "<group>"; };
+		3821F47723C648920055869D /* YelpImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YelpImages.swift; sourceTree = "<group>"; };
+		3821F47923C648B10055869D /* ApiKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiKeys.swift; sourceTree = "<group>"; };
+		3821F47B23C648CF0055869D /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3821F44F23C63AC20055869D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3821F43823C63ABD0055869D = {
+			isa = PBXGroup;
+			children = (
+				3821F44723C63ABD0055869D /* BusinessLocator_WatchApp WatchKit App */,
+				3821F45623C63AC20055869D /* BusinessLocator_WatchApp WatchKit Extension */,
+				3821F44023C63ABD0055869D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3821F44023C63ABD0055869D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3821F43F23C63ABD0055869D /* BusinessLocator_WatchApp.app */,
+				3821F44323C63ABD0055869D /* BusinessLocator_WatchApp WatchKit App.app */,
+				3821F45223C63AC20055869D /* BusinessLocator_WatchApp WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3821F44723C63ABD0055869D /* BusinessLocator_WatchApp WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				3821F44823C63ABD0055869D /* Interface.storyboard */,
+				3821F44B23C63AC20055869D /* Assets.xcassets */,
+				3821F44D23C63AC20055869D /* Info.plist */,
+			);
+			path = "BusinessLocator_WatchApp WatchKit App";
+			sourceTree = "<group>";
+		};
+		3821F45623C63AC20055869D /* BusinessLocator_WatchApp WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3821F47423C648160055869D /* Data */,
+				3821F45723C63AC20055869D /* InterfaceController.swift */,
+				3821F47023C6476D0055869D /* BusinessTable.swift */,
+				3821F46E23C646A10055869D /* BusinessRow.swift */,
+				3821F45923C63AC20055869D /* ExtensionDelegate.swift */,
+				3821F45B23C63AC20055869D /* NotificationController.swift */,
+				3821F45D23C63AC50055869D /* Assets.xcassets */,
+				3821F45F23C63AC50055869D /* Info.plist */,
+				3821F46023C63AC50055869D /* PushNotificationPayload.apns */,
+			);
+			path = "BusinessLocator_WatchApp WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		3821F47423C648160055869D /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				3821F47223C6480B0055869D /* YelpData.swift */,
+				3821F47523C648640055869D /* YelpParser.swift */,
+				3821F47723C648920055869D /* YelpImages.swift */,
+				3821F47923C648B10055869D /* ApiKeys.swift */,
+				3821F47B23C648CF0055869D /* Networking.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3821F43E23C63ABD0055869D /* BusinessLocator_WatchApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3821F46B23C63AC50055869D /* Build configuration list for PBXNativeTarget "BusinessLocator_WatchApp" */;
+			buildPhases = (
+				3821F43D23C63ABD0055869D /* Resources */,
+				3821F46A23C63AC50055869D /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3821F44623C63ABD0055869D /* PBXTargetDependency */,
+			);
+			name = BusinessLocator_WatchApp;
+			productName = BusinessLocator_WatchApp;
+			productReference = 3821F43F23C63ABD0055869D /* BusinessLocator_WatchApp.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		3821F44223C63ABD0055869D /* BusinessLocator_WatchApp WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3821F46723C63AC50055869D /* Build configuration list for PBXNativeTarget "BusinessLocator_WatchApp WatchKit App" */;
+			buildPhases = (
+				3821F44123C63ABD0055869D /* Resources */,
+				3821F46623C63AC50055869D /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3821F45523C63AC20055869D /* PBXTargetDependency */,
+			);
+			name = "BusinessLocator_WatchApp WatchKit App";
+			productName = "BusinessLocator_WatchApp WatchKit App";
+			productReference = 3821F44323C63ABD0055869D /* BusinessLocator_WatchApp WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		3821F45123C63AC20055869D /* BusinessLocator_WatchApp WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3821F46323C63AC50055869D /* Build configuration list for PBXNativeTarget "BusinessLocator_WatchApp WatchKit Extension" */;
+			buildPhases = (
+				3821F44E23C63AC20055869D /* Sources */,
+				3821F44F23C63AC20055869D /* Frameworks */,
+				3821F45023C63AC20055869D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BusinessLocator_WatchApp WatchKit Extension";
+			productName = "BusinessLocator_WatchApp WatchKit Extension";
+			productReference = 3821F45223C63AC20055869D /* BusinessLocator_WatchApp WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3821F43923C63ABD0055869D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Salma;
+				TargetAttributes = {
+					3821F43E23C63ABD0055869D = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					3821F44223C63ABD0055869D = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					3821F45123C63AC20055869D = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 3821F43C23C63ABD0055869D /* Build configuration list for PBXProject "BusinessLocator_WatchApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3821F43823C63ABD0055869D;
+			productRefGroup = 3821F44023C63ABD0055869D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3821F43E23C63ABD0055869D /* BusinessLocator_WatchApp */,
+				3821F44223C63ABD0055869D /* BusinessLocator_WatchApp WatchKit App */,
+				3821F45123C63AC20055869D /* BusinessLocator_WatchApp WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3821F43D23C63ABD0055869D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3821F44123C63ABD0055869D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3821F44C23C63AC20055869D /* Assets.xcassets in Resources */,
+				3821F44A23C63ABD0055869D /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3821F45023C63AC20055869D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3821F45E23C63AC50055869D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3821F44E23C63AC20055869D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3821F46F23C646A10055869D /* BusinessRow.swift in Sources */,
+				3821F47C23C648CF0055869D /* Networking.swift in Sources */,
+				3821F47323C6480B0055869D /* YelpData.swift in Sources */,
+				3821F47A23C648B10055869D /* ApiKeys.swift in Sources */,
+				3821F45C23C63AC20055869D /* NotificationController.swift in Sources */,
+				3821F47823C648920055869D /* YelpImages.swift in Sources */,
+				3821F47123C6476D0055869D /* BusinessTable.swift in Sources */,
+				3821F45A23C63AC20055869D /* ExtensionDelegate.swift in Sources */,
+				3821F45823C63AC20055869D /* InterfaceController.swift in Sources */,
+				3821F47623C648640055869D /* YelpParser.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3821F44623C63ABD0055869D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3821F44223C63ABD0055869D /* BusinessLocator_WatchApp WatchKit App */;
+			targetProxy = 3821F44523C63ABD0055869D /* PBXContainerItemProxy */;
+		};
+		3821F45523C63AC20055869D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3821F45123C63AC20055869D /* BusinessLocator_WatchApp WatchKit Extension */;
+			targetProxy = 3821F45423C63AC20055869D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3821F44823C63ABD0055869D /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3821F44923C63ABD0055869D /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3821F46123C63AC50055869D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3821F46223C63AC50055869D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3821F46423C63AC50055869D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "BusinessLocator_WatchApp WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MCS.BusinessLocator-WatchApp.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		3821F46523C63AC50055869D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "BusinessLocator_WatchApp WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MCS.BusinessLocator-WatchApp.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
+		3821F46823C63AC50055869D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = BusinessLocator_WatchApp_WatchKit_Extension;
+				INFOPLIST_FILE = "BusinessLocator_WatchApp WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "MCS.BusinessLocator-WatchApp.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		3821F46923C63AC50055869D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = BusinessLocator_WatchApp_WatchKit_Extension;
+				INFOPLIST_FILE = "BusinessLocator_WatchApp WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "MCS.BusinessLocator-WatchApp.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
+		3821F46C23C63AC50055869D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MCS.BusinessLocator-WatchApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3821F46D23C63AC50055869D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MCS.BusinessLocator-WatchApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3821F43C23C63ABD0055869D /* Build configuration list for PBXProject "BusinessLocator_WatchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3821F46123C63AC50055869D /* Debug */,
+				3821F46223C63AC50055869D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3821F46323C63AC50055869D /* Build configuration list for PBXNativeTarget "BusinessLocator_WatchApp WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3821F46423C63AC50055869D /* Debug */,
+				3821F46523C63AC50055869D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3821F46723C63AC50055869D /* Build configuration list for PBXNativeTarget "BusinessLocator_WatchApp WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3821F46823C63AC50055869D /* Debug */,
+				3821F46923C63AC50055869D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3821F46B23C63AC50055869D /* Build configuration list for PBXNativeTarget "BusinessLocator_WatchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3821F46C23C63AC50055869D /* Debug */,
+				3821F46D23C63AC50055869D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3821F43923C63ABD0055869D /* Project object */;
+}
