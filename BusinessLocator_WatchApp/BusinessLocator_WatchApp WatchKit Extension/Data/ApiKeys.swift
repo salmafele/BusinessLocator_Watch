@@ -8,7 +8,7 @@
 
 class ApiKeys {
 
-    static let googleApiKey = YourGoogleApiKey
+    static let googleApiKey = "YourGoogleApiKey"
     
-    static let yelpApiKey = YourYelpApiKey
+    static let yelpApiKey = "YourYelpApiKey"
 }
